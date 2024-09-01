@@ -15,5 +15,5 @@ androidApp/keystore
 androidApp/debug
 androidApp/release
 .kotlin
-
+/androidApp/google-services.json
 

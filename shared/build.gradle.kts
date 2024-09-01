@@ -27,6 +27,12 @@ kotlin {
         commonMain.dependencies {
             //put your multiplatform dependencies here
         }
+        androidMain.dependencies {
+
+        }
+        iosMain.dependencies {
+
+        }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
