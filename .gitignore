@@ -18,3 +18,4 @@ androidApp/release
 /androidApp/google-services.json
 /iosApp/iosApp/GoogleService-Info.plist
 !gradle/wrapper/gradle-wrapper.properties
+!gradle.properties
