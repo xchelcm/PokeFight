@@ -16,4 +16,5 @@ androidApp/debug
 androidApp/release
 .kotlin
 /androidApp/google-services.json
+/iosApp/iosApp/GoogleService-Info.plist
 
