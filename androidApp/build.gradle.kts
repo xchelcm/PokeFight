@@ -55,7 +55,7 @@ android {
             isMinifyEnabled = false
         }
         getByName("debug") {
-            signingConfig = signingConfigs.getByName("release")
+            signingConfig = signingConfigs.getByName("debug")
             versionNameSuffix = "-debug"
         }
     }
@@ -83,6 +83,10 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     debugImplementation(libs.compose.ui.tooling)
     implementation(project.dependencies.platform(libs.firebase.bom))
-    implementation(libs.firebase.crashlyticsKtx)
-    implementation(libs.firebase.analyticsKtx)
+    implementation(libs.firebase.crashlytics.ktx)
+    implementation(libs.firebase.analytics.ktx)
+    implementation(libs.koin.core)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.compose.viewmodel)
+    implementation(libs.koin.android)
 }
