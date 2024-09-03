@@ -1,5 +1,5 @@
 import SwiftUI
-import PokeFight
+import XCPokeFight
 
 @main
 struct iOSApp: App {

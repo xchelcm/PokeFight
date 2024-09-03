@@ -1,5 +1,5 @@
 import SwiftUI
-import PokeFight
+import XCPokeFight
 import Foundation
 
 struct ContentView: View {
@@ -10,21 +10,21 @@ struct ContentView: View {
     let value4 = SharedIOSTesting.companion.testing
     
     var viewModel = HomeViewModel()
-
+    
     
     var body: some View {
         
-        // Observing(viewModel.state) state in { Text("state.pokemons.count") }
-        //        Observing(viewModel.state) { state in
-        //            VStack {
-        //                Text("State:\(state.isLoading)")
-        //                Text("iOS App")
-        //                Text(value1)
-        //                Text(value2)
-        //                Text(value3)
-        //                Text(value4)
-        //            }
-        //        }
+        //         Observing(viewModel.state) state in { Text("state.pokemons.count") }
+//        Observing(viewModel.state) { state in
+//            VStack {
+//                Text("State:\(state.isLoading)")
+//                Text("iOS App")
+//                Text(value1)
+//                Text(value2)
+//                Text(value3)
+//                Text(value4)
+//            }
+//        }
         VStack {
             Observing(viewModel.state) { state in
                 VStack {

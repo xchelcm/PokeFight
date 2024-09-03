@@ -16,6 +16,6 @@ androidApp/debug
 androidApp/release
 .kotlin
 /androidApp/google-services.json
-/iosApp/iosApp/GoogleService-Info.plist
+/iosApp/PokeFight/GoogleService-Info.plist
 !gradle/wrapper/gradle-wrapper.properties
 !gradle.properties

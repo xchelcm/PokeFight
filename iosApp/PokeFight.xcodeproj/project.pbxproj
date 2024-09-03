@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
-		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
-		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
-		57ADD8C52C86593E001218B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57ADD8C42C86593E001218B6 /* GoogleService-Info.plist */; };
-		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
-		F908156D2C84342900B1096A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F908156C2C84342900B1096A /* FirebaseAnalytics */; };
-		F908156F2C84342900B1096A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F908156E2C84342900B1096A /* FirebaseCrashlytics */; };
+		570452D42C86E15B00A9DF25 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 570452D32C86E15B00A9DF25 /* FirebaseAnalytics */; };
+		570452D62C86E16200A9DF25 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 570452D52C86E16200A9DF25 /* FirebaseCrashlytics */; };
+		572C4FD92C86D42000C3E79C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572C4FD82C86D42000C3E79C /* GoogleService-Info.plist */; };
+		572C4FDB2C86D4A800C3E79C /* PokeFight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C4FDA2C86D4A800C3E79C /* PokeFight.swift */; };
+		572C4FDD2C86D4C800C3E79C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C4FDC2C86D4C800C3E79C /* ContentView.swift */; };
+		572C4FDF2C86D4E500C3E79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572C4FDE2C86D4E500C3E79C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,13 +29,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
-		57ADD8C42C86593E001218B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../androidApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572C4FD82C86D42000C3E79C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		572C4FDA2C86D4A800C3E79C /* PokeFight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeFight.swift; sourceTree = "<group>"; };
+		572C4FDC2C86D4C800C3E79C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		572C4FDE2C86D4E500C3E79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572C4FE02C86D4FD00C3E79C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F67B392C86DE4300837B89 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		7555FF7B242A565900829871 /* PokeFight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeFight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,26 +43,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F908156D2C84342900B1096A /* FirebaseAnalytics in Frameworks */,
-				F908156F2C84342900B1096A /* FirebaseCrashlytics in Frameworks */,
+				570452D42C86E15B00A9DF25 /* FirebaseAnalytics in Frameworks */,
+				570452D62C86E16200A9DF25 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		058557D7273AAEEB004C7B11 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
-				7555FF7D242A565900829871 /* iosApp */,
+				7555FF7D242A565900829871 /* PokeFight */,
 				7555FF7C242A565900829871 /* Products */,
 				7555FFB0242A642200829871 /* Frameworks */,
 			);
@@ -72,22 +63,22 @@
 		7555FF7C242A565900829871 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7555FF7B242A565900829871 /* iosApp.app */,
+				7555FF7B242A565900829871 /* PokeFight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7555FF7D242A565900829871 /* iosApp */ = {
+		7555FF7D242A565900829871 /* PokeFight */ = {
 			isa = PBXGroup;
 			children = (
-				058557BA273AAA24004C7B11 /* Assets.xcassets */,
-				7555FF82242A565900829871 /* ContentView.swift */,
-				7555FF8C242A565B00829871 /* Info.plist */,
-				2152FB032600AC8F00CF470E /* iOSApp.swift */,
-				57ADD8C42C86593E001218B6 /* GoogleService-Info.plist */,
-				058557D7273AAEEB004C7B11 /* Preview Content */,
+				572C4FDC2C86D4C800C3E79C /* ContentView.swift */,
+				572C4FDE2C86D4E500C3E79C /* Assets.xcassets */,
+				572C4FDA2C86D4A800C3E79C /* PokeFight.swift */,
+				572C4FD82C86D42000C3E79C /* GoogleService-Info.plist */,
+				572C4FE02C86D4FD00C3E79C /* Info.plist */,
+				57F67B392C86DE4300837B89 /* Preview Content */,
 			);
-			path = iosApp;
+			path = PokeFight;
 			sourceTree = "<group>";
 		};
 		7555FFB0242A642200829871 /* Frameworks */ = {
@@ -100,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7555FF7A242A565900829871 /* iosApp */ = {
+		7555FF7A242A565900829871 /* PokeFight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */;
+			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "PokeFight" */;
 			buildPhases = (
 				7555FFB5242A651A00829871 /* ShellScript */,
 				7555FF77242A565900829871 /* Sources */,
@@ -114,13 +105,13 @@
 			);
 			dependencies = (
 			);
-			name = iosApp;
+			name = PokeFight;
 			packageProductDependencies = (
-				F908156C2C84342900B1096A /* FirebaseAnalytics */,
-				F908156E2C84342900B1096A /* FirebaseCrashlytics */,
+				570452D32C86E15B00A9DF25 /* FirebaseAnalytics */,
+				570452D52C86E16200A9DF25 /* FirebaseCrashlytics */,
 			);
-			productName = iosApp;
-			productReference = 7555FF7B242A565900829871 /* iosApp.app */;
+			productName = PokeFight;
+			productReference = 7555FF7B242A565900829871 /* PokeFight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,8 +129,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 7555FF76242A565900829871 /* Build configuration list for PBXProject "iosApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 7555FF76242A565900829871 /* Build configuration list for PBXProject "PokeFight" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -154,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7555FF7A242A565900829871 /* iosApp */,
+				7555FF7A242A565900829871 /* PokeFight */,
 			);
 		};
 /* End PBXProject section */
@@ -164,9 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
-				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
-				57ADD8C52C86593E001218B6 /* GoogleService-Info.plist in Resources */,
+				572C4FDF2C86D4E500C3E79C /* Assets.xcassets in Resources */,
+				572C4FD92C86D42000C3E79C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
-				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				572C4FDD2C86D4C800C3E79C /* ContentView.swift in Sources */,
+				572C4FDB2C86D4A800C3E79C /* PokeFight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = PokeFight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -311,6 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = PokeFight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -327,14 +319,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = T628CFUBY9;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeFight/Preview Content\"";
+				DEVELOPMENT_TEAM = FJAC2DB79M;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../PokeFight/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = PokeFight/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Poke Fight";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -349,7 +342,7 @@
 					PokeFight,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.idaxmx.pokefight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -365,14 +358,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = T628CFUBY9;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeFight/Preview Content\"";
+				DEVELOPMENT_TEAM = FJAC2DB79M;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = PokeFight/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Poke Fight";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -387,7 +381,7 @@
 					PokeFight,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.idaxmx.pokefight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -400,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7555FF76242A565900829871 /* Build configuration list for PBXProject "iosApp" */ = {
+		7555FF76242A565900829871 /* Build configuration list for PBXProject "PokeFight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7555FFA3242A565B00829871 /* Debug */,
@@ -409,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */ = {
+		7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "PokeFight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7555FFA6242A565B00829871 /* Debug */,
@@ -432,12 +426,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F908156C2C84342900B1096A /* FirebaseAnalytics */ = {
+		570452D32C86E15B00A9DF25 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F908156B2C84342900B1096A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
-		F908156E2C84342900B1096A /* FirebaseCrashlytics */ = {
+		570452D52C86E16200A9DF25 /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F908156B2C84342900B1096A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
